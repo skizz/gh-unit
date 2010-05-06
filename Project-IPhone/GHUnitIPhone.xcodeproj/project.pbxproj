@@ -144,7 +144,7 @@
 		0016AF101012A4A8009F4F8F /* GHTestFail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0016AF0E1012A4A8009F4F8F /* GHTestFail.m */; };
 		001ED8BE117292330046CD38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001ED8BD117292330046CD38 /* UIKit.framework */; };
 		0020546A0F93FE6F00FC1898 /* GHNSLocaleMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 002054690F93FE6F00FC1898 /* GHNSLocaleMockTest.m */; };
-		0022F2EA105C840500EF9FC5 /* libGHUnitIPhoneSimulator3_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_0.a */; };
+		0022F2EA105C840500EF9FC5 /* libGHUnitIPhoneSimulator3_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_2.a */; };
 		007730280F8D8DF400586577 /* GHAsyncTestCaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 007730230F8D8DF400586577 /* GHAsyncTestCaseTest.m */; };
 		007730290F8D8DF400586577 /* GHRegisterTestCaseClassTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 007730240F8D8DF400586577 /* GHRegisterTestCaseClassTest.m */; };
 		0077302B0F8D8DF400586577 /* GHSpecialTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 007730270F8D8DF400586577 /* GHSpecialTestCase.m */; };
@@ -465,8 +465,8 @@
 		008F39E21174300C001A35C4 /* GHUnitIPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIPhoneView.m; sourceTree = "<group>"; };
 		00A230BD1022586400337F7B /* GHTestMacrosTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTestMacrosTest.m; sourceTree = "<group>"; };
 		00A230BF1022587F00337F7B /* GHTestLogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTestLogTest.m; sourceTree = "<group>"; };
-		00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHUnitIPhoneSimulator3_0.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		00A953270FDA2BB8006A80A6 /* libGHUnitIPhoneDevice3_0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHUnitIPhoneDevice3_0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHUnitIPhoneSimulator3_2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A953270FDA2BB8006A80A6 /* libGHUnitIPhoneDevice3_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHUnitIPhoneDevice3_2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A9533F0FDA2DD4006A80A6 /* CombineLibs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = CombineLibs.sh; sourceTree = "<group>"; };
 		00AF12E90F2D880E009F0ABA /* GHSlowTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSlowTest.m; sourceTree = "<group>"; };
 		00B7BCB3107972340005897B /* NSException+GHTestFailureExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GHTestFailureExceptions.h"; sourceTree = "<group>"; };
@@ -532,7 +532,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0022F2EA105C840500EF9FC5 /* libGHUnitIPhoneSimulator3_0.a in Frameworks */,
+				0022F2EA105C840500EF9FC5 /* libGHUnitIPhoneSimulator3_2.a in Frameworks */,
 				001ED8BE117292330046CD38 /* UIKit.framework in Frameworks */,
 				00E58D431172937E0037E3C8 /* Foundation.framework in Frameworks */,
 				00E58D4B1172938B0037E3C8 /* CoreGraphics.framework in Frameworks */,
@@ -759,8 +759,8 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* Tests.app */,
-				00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_0.a */,
-				00A953270FDA2BB8006A80A6 /* libGHUnitIPhoneDevice3_0.a */,
+				00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_2.a */,
+				00A953270FDA2BB8006A80A6 /* libGHUnitIPhoneDevice3_2.a */,
 				0002877211814A1F00D74BBD /* libGHUnitIPhoneSimulator4_0.a */,
 				000287A311814A5300D74BBD /* libGHUnitIPhoneDevice4_0.a */,
 				0002880011814C2800D74BBD /* Tests.app */,
@@ -926,7 +926,7 @@
 			);
 			name = "GHUnitIPhone (Simulator-3.0)";
 			productName = StaticLibrary;
-			productReference = 00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_0.a */;
+			productReference = 00A952F50FDA2B99006A80A6 /* libGHUnitIPhoneSimulator3_2.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		00A952F60FDA2BB8006A80A6 /* GHUnitIPhone (Device-3.0) */ = {
@@ -944,7 +944,7 @@
 			);
 			name = "GHUnitIPhone (Device-3.0)";
 			productName = StaticLibrary;
-			productReference = 00A953270FDA2BB8006A80A6 /* libGHUnitIPhoneDevice3_0.a */;
+			productReference = 00A953270FDA2BB8006A80A6 /* libGHUnitIPhoneDevice3_2.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		1D6058900D05DD3D006BFB54 /* Tests (3.0) */ = {
@@ -1048,7 +1048,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export FLAVOR=3_0\nsh ../Scripts/CombineLibs.sh";
+			shellScript = "export FLAVOR=3_2\nsh ../Scripts/CombineLibs.sh";
 		};
 		00C1A2F40F5286B100FCCA14 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1349,6 +1349,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 001ED7AD11728CDE0046CD38 /* iPhoneDevice-Debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 			};
 			name = Debug;
 		};
@@ -1356,6 +1357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 001ED7AC11728C4C0046CD38 /* iPhoneDevice-Release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 			};
 			name = Release;
 		};
@@ -1399,7 +1401,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Debug;
 		};
@@ -1412,7 +1414,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Release;
 		};
