@@ -1289,6 +1289,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00028740118149E700D74BBD /* iPhoneDevice-Debug-4_0.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 			};
 			name = Debug;
 		};

@@ -1,6 +1,6 @@
 
 TEST_TARGET=Tests
-SDK=iphonesimulator3.0
+SDK=iphonesimulator3.2
 COMMAND=xcodebuild
 
 default:
